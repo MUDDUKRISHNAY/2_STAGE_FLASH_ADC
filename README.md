@@ -28,11 +28,11 @@ This architecture significantly reduces the total number of comparators and allo
 ![image](https://github.com/user-attachments/assets/4571d8f8-0248-49f4-86d3-97f4146b4961)
 
 # different Blocks used in this Architecture are:
--1  sample and hold 
--2  flash ADC
--3  DAC (c2c DAC)
--4  subtractor
--5  residue_Amplifier
+- sample and hold 
+- flash ADC
+- DAC (c2c DAC)
+- subtractor
+- residue_Amplifier
 
 
 I used OPAMP in sample and hold circut , subtractor circuit and residue_Amplifier
