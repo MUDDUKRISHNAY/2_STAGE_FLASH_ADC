@@ -1,4 +1,4 @@
-# 4_bit_2_STAGE_FLASH_ADC
+# 4bit_2_STAGE_FLASH_ADC
 Analog  to digital converter  to reduce area and quantization error 
 
 # Abstract
