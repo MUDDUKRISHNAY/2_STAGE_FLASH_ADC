@@ -44,3 +44,8 @@ In Flash ADC I used :
 In DAC (c2c DAC) I used:
 - Switch
 
+# OPAMP
+I used OPAMP which in the , repository named OPAMP
+
+
+
