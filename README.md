@@ -36,9 +36,9 @@ This architecture significantly reduces the total number of comparators and allo
 
 
 I used OPAMP in sample and hold circut , subtractor circuit and residue_Amplifier
--In Flash ADC I used :
--1 comparator
--2 Thermometer to Binary encoder
+- In Flash ADC I used :
+- comparator
+- Thermometer to Binary encoder
 
 In DAC (c2c DAC) I used
 -1 Switch
