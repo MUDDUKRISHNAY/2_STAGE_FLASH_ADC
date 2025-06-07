@@ -1,7 +1,7 @@
 # 4_bit_2_STAGE_FLASH_FLASH_ADC
 Analog  to digital converter  to reduce area and quantization error 
 
-#Abstract
+# Abstract
 This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
 A conventional n-bit Flash ADC requires (2^(𝑛))−1 comparators, resulting in high power and area overhead, especially for higher resolutions. The 2-Stage Flash ADC, also known as a subranging ADC, overcomes this limitation by dividing the conversion process into two stages:
 Stage 1 performs a coarse conversion to resolve the Most Significant Bits (MSBs).
@@ -28,18 +28,18 @@ This architecture significantly reduces the total number of comparators and allo
 ![image](https://github.com/user-attachments/assets/4571d8f8-0248-49f4-86d3-97f4146b4961)
 
 # different Blocks used in this Architecture are:
-1  sample and hold 
-2  flash ADC
-3  DAC (c2c DAC)
-4  subtractor
-5  residue_Amplifier
+-1  sample and hold 
+-2  flash ADC
+-3  DAC (c2c DAC)
+-4  subtractor
+-5  residue_Amplifier
 
 
 I used OPAMP in sample and hold circut , subtractor circuit and residue_Amplifier
-In Flash ADC I used :
-1 comparator
-2 Thermometer to Binary encoder
+-In Flash ADC I used :
+-1 comparator
+-2 Thermometer to Binary encoder
 
 In DAC (c2c DAC) I used
-1 Switch
+-1 Switch
 
