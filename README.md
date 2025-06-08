@@ -46,6 +46,8 @@ In DAC (c2c DAC) I used:
 
 # OPAMP
 I used OPAMP which in the , repository named OPAMP
+[OPAMP](https://github.com/MUDDUKRISHNAY/OPAMP.git)
+
 
 
 
