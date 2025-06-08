@@ -2,8 +2,11 @@
 Analog  to digital converter  to reduce area and quantization error 
 
 # Abstract
-This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
-A conventional n-bit Flash ADC requires (2^(𝑛))−1 comparators, resulting in high power and area overhead, especially for higher resolutions. The 2-Stage Flash ADC, also known as a subranging ADC, overcomes this limitation by dividing the conversion process into two stages:
+- This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
+
+- I am using gpdk90 for this project
+
+- A conventional n-bit Flash ADC requires (2^(𝑛))−1 comparators, resulting in high power and area overhead, especially for higher resolutions. The 2-Stage Flash ADC, also known as a subranging ADC, overcomes this limitation by dividing the conversion process into two stages:
 Stage 1 performs a coarse conversion to resolve the Most Significant Bits (MSBs).
 Stage 2 converts the residue (the difference between the input and DAC-reconstructed signal from Stage 1) to obtain the Least Significant Bits (LSBs).
 
@@ -45,8 +48,20 @@ In DAC (c2c DAC) I used:
 - Switch
 
 # OPAMP
-I used OPAMP which in the , repository named OPAMP
-[OPAMP](https://github.com/MUDDUKRISHNAY/OPAMP.git)
+I used OPAMP which is  in the repository , named OPAMP
+- [OPAMP](https://github.com/MUDDUKRISHNAY/OPAMP.git)
+
+# Comparator
+- In this project I used static Comparator
+- It as Minimum Resolution of 40m V ( The comparator can detect a minimum voltage difference of 40 millivolts between its two input terminals (V+ and V-) and reliably determine which one is larger)
+  
+- Comparator circuit
+  ![image](https://github.com/user-attachments/assets/07a713c0-c2f5-472e-a3d5-4130ecb68ec6)
+
+- Proposed circuit
+  ![comparator](https://github.com/user-attachments/assets/d297382d-cc8b-42e4-8e5d-d3dd69825e1b)
+
+
 
 
 
