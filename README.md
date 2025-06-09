@@ -81,6 +81,21 @@ Output(buffer stage) :
 - output of Comparator
   ![image](https://github.com/user-attachments/assets/bc79733d-7805-4f1b-8821-f6d7acbf0915)
 
+# Thermometer To Binary encoder
+- In Flash ADC we use 3 Comparator , the Digital output of Comparator is thermometer code which is ( not compact and not in standard binary format) so we use Thermometer To Binary encoder
+
+- Thermometer To Binary encoder circuit
+![thermometer_to_binary](https://github.com/user-attachments/assets/2ce12e67-02c5-4af4-8fce-fb98166bb7d2)
+
+- Testbench of Thermometer To Binary encoder
+![tm_to_bi_testbench](https://github.com/user-attachments/assets/e52df53e-db2f-40fa-aa80-083a0080672b)
+
+- output of Thermometer To Binary encoder
+![tm_to_bi_output](https://github.com/user-attachments/assets/d5f4626e-e724-404e-af4c-5f9c85d2a086)
+
+
+
+
 
 
 
