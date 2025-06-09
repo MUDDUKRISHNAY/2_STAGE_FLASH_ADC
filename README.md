@@ -75,6 +75,14 @@ Output(buffer stage) :
 - Proposed circuit
   ![comparator](https://github.com/user-attachments/assets/d297382d-cc8b-42e4-8e5d-d3dd69825e1b)
 
+- Testbench of Comparator
+  ![image](https://github.com/user-attachments/assets/788ecbfb-f38d-4fd4-aabb-aade84875e8b)
+
+- output of Comparator
+  ![image](https://github.com/user-attachments/assets/bc79733d-7805-4f1b-8821-f6d7acbf0915)
+
+
+
 
 
 
