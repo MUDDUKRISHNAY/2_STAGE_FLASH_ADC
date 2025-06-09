@@ -11,13 +11,13 @@ Stage 1 performs a coarse conversion to resolve the Most Significant Bits (MSBs)
 Stage 2 converts the residue (the difference between the input and DAC-reconstructed signal from Stage 1) to obtain the Least Significant Bits (LSBs).
 
 
-- Flash ADC 
+Flash ADC 
 - Structure: Single-stage ADC.
 - Number of Comparators:
 - (2^(𝑛))−1 comparators for n-bit resolution
 - For example: a 4-bit flash ADC requires 15 comparators.
 
-- Two-Stage Flash ADC 
+Two-Stage Flash ADC 
 - Structure: Two stages – coarse and fine.
 - Number of Comparators:
 - Reduced significantly compared to flash ADC.
