@@ -1,5 +1,5 @@
 # 4bit_2_STAGE_FLASH_ADC
-Analog  to digital converter  to reduce area and quantization error 
+Analog  to digital converter  to reduce Area and Quantization error 
 
 # Abstract
 - This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
@@ -31,11 +31,11 @@ This architecture significantly reduces the total number of comparators and allo
 ![image](https://github.com/user-attachments/assets/4571d8f8-0248-49f4-86d3-97f4146b4961)
 
 # different Blocks used in this Architecture are:
-- sample and hold 
-- flash ADC
+- Sample and hold 
+- Flash ADC
 - DAC (c2c DAC)
-- subtractor
-- residue_Amplifier
+- Subtractor
+- Residue_Amplifier
 
 In sample and hold ,subtractor and residue_Amplifier I used :
 - OPAMP
@@ -118,6 +118,30 @@ Output(buffer stage) :
 
 - Output of Sample and Hold
   ![sample_and_hold_output](https://github.com/user-attachments/assets/811fe102-36cc-45b0-b5c7-66182960950e)
+
+# Subtractor
+- In a 2-stage Flash ADC, the subtractor is used to calculate the residue for the second stage.
+- After the first stage (coarse ADC) converts the most significant bits (MSBs), its output is converted back to an analog voltage by a DAC.
+    
+The subtractor then computes:
+- Residue = Vin − Vdac
+
+- This residue represents the part of the input that was not captured by the first stage. It is sent to the second stage (fine ADC) to resolve the lower bits (LSBs), improving overall resolution and accuracy.
+- This we reduced Quantization error
+
+- Subtractor circuit
+![subtractor](https://github.com/user-attachments/assets/33995c52-8b6e-43f5-8283-7a90dd4c1794)
+
+- Testbench for Subtractor
+![subtractor_testbench](https://github.com/user-attachments/assets/ca973885-0586-4cc8-8294-41d87f817520)
+
+- Output of Subtractor
+![subtractor_output](https://github.com/user-attachments/assets/db1d0610-d512-4b13-bc9c-4d9e9aef5462)
+
+
+
+
+
 
 
 
