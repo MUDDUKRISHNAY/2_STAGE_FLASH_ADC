@@ -142,6 +142,29 @@ In above picture Vout = v(+) - v(-)
 # Residue_Amplifier
 - The residue amplifier amplifies the residue voltage coming from the subtractor before it is processed by the second stage ADC.
 - This ensures that the full input range is effectively used by the second stage.
+- Residue Amplifier gain = 2^(N/2) 
+- N -> total number of bits
+- he first stage resolves n bits → 2ⁿ levels.
+- After the first stage, the maximum possible residue is about 1 LSB of first stage.
+- 1 LSB of first stage = Vref / 2ⁿ
+
+Second stage to cover this range using its own (N − n) bits, you need to scale the residue up.
+- both stages are designed to have similar resolution → split evenly.
+- Total N bits, n = N/2 bits in each stage.
+- Multiply the residue by 2ⁿ/2 = 2^(n/2) to stretch it across full-scale input of the second stage.
+
+- Residue_Amplifier circuit
+![residue_amplifier](https://github.com/user-attachments/assets/9154e570-5a7b-482d-8218-73a2ec45a26f)
+
+- Testbench for Residue_Amplifier
+![residue_amplifier_testbench](https://github.com/user-attachments/assets/eaf6f7d0-b318-4f86-b1b2-5cf5187f3e14)
+
+- Output of Residue_Amplifier
+![residue_amplifier_output](https://github.com/user-attachments/assets/0bf0c0c6-b8af-475b-ba22-9facf86c17a2)
+
+
+
+  
 
 
 
