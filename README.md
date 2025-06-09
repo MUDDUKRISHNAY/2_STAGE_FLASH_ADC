@@ -155,6 +155,7 @@ Second stage to cover this range using its own (N − n) bits, you need to scale
 
 - Residue_Amplifier circuit
 ![residue_amplifier](https://github.com/user-attachments/assets/9154e570-5a7b-482d-8218-73a2ec45a26f)
+Gain = 1 + (R1/R2) => (1 + (6/2))
 
 - Testbench for Residue_Amplifier
 ![residue_amplifier_testbench](https://github.com/user-attachments/assets/eaf6f7d0-b318-4f86-b1b2-5cf5187f3e14)
