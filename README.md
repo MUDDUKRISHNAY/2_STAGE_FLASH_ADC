@@ -75,7 +75,7 @@ Output(buffer stage) :
 - Proposed circuit
   ![comparator](https://github.com/user-attachments/assets/d297382d-cc8b-42e4-8e5d-d3dd69825e1b)
 
-- Testbench of Comparator
+- Testbench for Comparator
   ![image](https://github.com/user-attachments/assets/788ecbfb-f38d-4fd4-aabb-aade84875e8b)
 
 - output of Comparator
@@ -87,11 +87,27 @@ Output(buffer stage) :
 - Thermometer To Binary encoder circuit
 ![thermometer_to_binary](https://github.com/user-attachments/assets/2ce12e67-02c5-4af4-8fce-fb98166bb7d2)
 
-- Testbench of Thermometer To Binary encoder
+- Testbench for Thermometer To Binary encoder
 ![tm_to_bi_testbench](https://github.com/user-attachments/assets/e52df53e-db2f-40fa-aa80-083a0080672b)
 
-- output of Thermometer To Binary encoder
+- Output of Thermometer To Binary encoder
 ![tm_to_bi_output](https://github.com/user-attachments/assets/d5f4626e-e724-404e-af4c-5f9c85d2a086)
+
+# Two bit Flash ADC
+- A Flash Analog-to-Digital Converter (Flash ADC) is one of the fastest types of ADC architectures. It uses a 3 comparators to simultaneously compare the input analog voltage against a set of reference voltages.
+- The outputs of these comparators form a thermometer code, which is then converted to a binary code using a thermometer-to-binary encoder.
+
+- Flash ADC circuit using Comparator and Thermometer To Binary encoder
+  ![image](https://github.com/user-attachments/assets/52bb98d0-cd4a-4d5d-88fd-9f871f3d5323)
+
+- Testbench for Flash ADC
+  ![flash-adc_testbench](https://github.com/user-attachments/assets/a090c04f-35bb-492b-94f6-c98f5c9f4ee6)
+
+- Output of Flash ADC
+  ![flash_adc_output](https://github.com/user-attachments/assets/d6b8aa3a-2e50-422a-8b76-c01016f92f6f)
+
+
+
 
 
 
