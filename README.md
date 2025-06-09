@@ -15,7 +15,7 @@ Stage 2 converts the residue (the difference between the input and DAC-reconstru
 - Structure: Single-stage ADC.
 - Number of Comparators:
 - (2^(𝑛))−1 comparators for n-bit resolution
- For example, a 4-bit flash ADC requires 15 comparators.
+- For example: a 4-bit flash ADC requires 15 comparators.
 
 - Two-Stage Flash ADC 
 - Structure: Two stages – coarse and fine.
@@ -23,7 +23,7 @@ Stage 2 converts the residue (the difference between the input and DAC-reconstru
 - Reduced significantly compared to flash ADC.
 - For an n-bit ADC split into k-bit coarse and (n−k)-bit fine:
 - (2^(k)−1)+(2^(n−k)−1) comparators
-Example: 4-bit ADC split into 2+2 : (2^(2)−1) + (2^(2)−1) = 3+3 = 6 comparators 
+- Example: 4-bit ADC split into 2+2 : (2^(2)−1) + (2^(2)−1) = 3+3 = 6 comparators 
 
 This architecture significantly reduces the total number of comparators and allows high-speed conversion with improved efficiency. The project includes schematic design, simulation results, and system-level analysis demonstrating the performance advantages of the 2-Stage Flash ADC.
 
