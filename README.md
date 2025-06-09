@@ -106,6 +106,18 @@ Output(buffer stage) :
 - Output of Flash ADC
   ![flash_adc_output](https://github.com/user-attachments/assets/d6b8aa3a-2e50-422a-8b76-c01016f92f6f)
 
+# Sample and Hold 
+- The Sample and Hold (S/H) circuit is used to capture the input voltage and keep it constant while the ADC is converting the signal.
+
+- Sample and Hold circuit
+  ![sampl_and_hold](https://github.com/user-attachments/assets/65a261bc-f528-4722-a1cd-12e47d7a97f8)
+  The OPAMP in the above picture is used as Buffer , to reduce Loading effect
+
+- Testbench for Sample and Hold
+  ![sample_and_hold_testbench](https://github.com/user-attachments/assets/cfefd6be-acf3-4066-9fcf-67433d5c1c4c)
+
+- Output of Sample and Hold
+  ![sample_and_hold_output](https://github.com/user-attachments/assets/811fe102-36cc-45b0-b5c7-66182960950e)
 
 
 
