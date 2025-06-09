@@ -137,7 +137,11 @@ The subtractor then computes:
 
 - Output of Subtractor
 ![subtractor_output](https://github.com/user-attachments/assets/db1d0610-d512-4b13-bc9c-4d9e9aef5462)
+In above picture Vout = v(+) - v(-)
 
+# Residue_Amplifier
+- The residue amplifier amplifies the residue voltage coming from the subtractor before it is processed by the second stage ADC.
+- This ensures that the full input range is effectively used by the second stage.
 
 
 
