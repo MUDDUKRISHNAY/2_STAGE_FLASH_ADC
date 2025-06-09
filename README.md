@@ -57,6 +57,8 @@ I used OPAMP which is  in the repository , named OPAMP
   
 - Comparator circuit
   ![image](https://github.com/user-attachments/assets/07a713c0-c2f5-472e-a3d5-4130ecb68ec6)
+- Pre amplifier : it is like differential amplifier 
+  
 
 - Proposed circuit
   ![comparator](https://github.com/user-attachments/assets/d297382d-cc8b-42e4-8e5d-d3dd69825e1b)
