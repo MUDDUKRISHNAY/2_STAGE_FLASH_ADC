@@ -58,18 +58,18 @@ I used OPAMP which is  in the repository , named OPAMP
 - Comparator circuit
   ![image](https://github.com/user-attachments/assets/07a713c0-c2f5-472e-a3d5-4130ecb68ec6)
   
-  Pre amplifier stage :
-  - it is like differential amplifier , Amplifies the small input differential voltage (difference between Vin+ and Vin-) before passing it to the next stage.
-  - It improves offset and noise performance by amplifying the signal above noise floor and internal offsets.
-  - Reduces kickback noise from the latch(Judgment) stage from feeding back to the input source and Provides isolation between the latch and sensitive analog input.
+Pre amplifier stage :
+- it is like differential amplifier , Amplifies the small input differential voltage (difference between Vin+ and Vin-) before passing it to the next stage.
+- It improves offset and noise performance by amplifying the signal above noise floor and internal offsets.
+- Reduces kickback noise from the latch(Judgment) stage from feeding back to the input source and Provides isolation between the latch and sensitive analog input.
+
+Latch(Judgment) stage :
+- Acts as a high-gain, positive-feedback decision circuit — provides fast, digital-like decision.
+- Converts the analog signal to a sharp digital output (non full swing).
     
- Latch(Judgment) stage :
-  - Acts as a high-gain, positive-feedback decision circuit — provides fast, digital-like decision.
-  - Converts the analog signal to a sharp digital output (not in full swing).
-    
-  Output(buffer stage) :
-  - Provides drive strength to interface with the next stage.
-  - Prevents loading effects on the latch, ensuring it operates fast
+Output(buffer stage) :
+- Provides drive strength to interface with the next stage.
+- Prevents loading effects on the latch, ensuring it operates fast
   
 
 - Proposed circuit
