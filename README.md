@@ -174,6 +174,49 @@ Gain = 1 + (R1/R2) => (1 + (6/2))
 - Output of Residue_Amplifier
 ![residue_amplifier_output](https://github.com/user-attachments/assets/0bf0c0c6-b8af-475b-ba22-9facf86c17a2)
 
+# Switch 
+- Switches are used to switch the output voltage in between Vdd and GND based on the digital bits.
+![switch](https://github.com/user-attachments/assets/f0210971-dcda-4a25-a22e-99a371fe22f1)
+DAC switches take the digital bits as inputs and switch the output voltage in between Vref and GND. If the digital bit is ‘1’ then M1 and M2 transistors will be ON, transistors M3 and M4 will be OFF. This makes the switch output raise to Vdd. If the digital bit is ‘0’ then M3 and M4 transistors will be ON, transistors M1 and M2 will be OFF. This makes the switch output fall to ground voltage.
+- The part in red circle VREFH( Reference voltage High) = 1.3 V
+- The part in green circle is VREFL( Reference Voltage Low ) = 0 V
+
+- proposed Circuit
+![SWITCH](https://github.com/user-attachments/assets/c0ace540-9712-444e-8691-9a7317b818cd)
+As seen in Schematic, digital inputs are the control terminals to the switches of a DAC. Switches are used to switch the output voltage in between Vdd and GND based on the digital bits.
+
+- Testbench for Switch
+![switch_testbench](https://github.com/user-attachments/assets/9209493c-15f1-4ce5-a340-a2b1c6a0c0fa)
+
+- Output of Switch
+![switch_output](https://github.com/user-attachments/assets/95c1c32e-90bb-4b6a-94ca-aecc42839202)
+
+# 2_bit DAC 
+- A C2C DAC is a type of capacitive Digital-to-Analog Converter that uses a network of capacitors instead of resistors to perform digital-to-analog conversion.
+- Each bit of the digital input controls a capacitor switch connected to either reference voltage (Vref) or ground.
+- The network of capacitors forms a charge divider, and the combined charge determines the analog output voltage.
+
+- 2_bit DAC Circuit 
+![DAC](https://github.com/user-attachments/assets/f1319bc0-115c-4cc7-af32-18979256ce87)
+
+- Testbench for 2_bit DAC
+![DAC_testbench](https://github.com/user-attachments/assets/3d7de32b-ee82-4c35-8e6b-d26ff6690a2a)
+
+- Output of 2_bit DAC
+![DAC_output](https://github.com/user-attachments/assets/8034aafa-02e8-42ca-b2a5-ebb391e7321e)
+
+
+
+
+
+
+
+
+
+  
+
+
+
 
 
   
