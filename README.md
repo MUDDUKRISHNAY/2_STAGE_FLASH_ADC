@@ -11,6 +11,8 @@ Analog  to digital converter  to reduce Area and Quantization error
 - 8.[Sample and Hold ](#Sample-and-Hold )
 - 9.[Subtractor](#Subtractor)
 - 10.[Residue_Amplifier](#Residue_Amplifier)
+- 11.[Switch](#Switch )
+- 12.[2_bit DAC ](#2_bit-DAC )
 
 # Abstract
 - This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
@@ -189,7 +191,7 @@ As seen in Schematic, digital inputs are the control terminals to the switches o
 ![switch_testbench](https://github.com/user-attachments/assets/9209493c-15f1-4ce5-a340-a2b1c6a0c0fa)
 
 - Output of Switch
-![switch_output](https://github.com/user-attachments/assets/95c1c32e-90bb-4b6a-94ca-aecc42839202)
+![Switch_output](https://github.com/user-attachments/assets/14c606e5-1e71-4918-95e1-e1b8853b030f)
 
 # 2_bit DAC 
 - A C2C DAC is a type of capacitive Digital-to-Analog Converter that uses a network of capacitors instead of resistors to perform digital-to-analog conversion.
