@@ -13,6 +13,7 @@ Analog  to digital converter  to reduce Area and Quantization error
 - 10.[Residue_Amplifier](#Residue_Amplifier)
 - 11.[Switch](#Switch )
 - 12.[Two_bit DAC ](#Two_bit-DAC )
+- 13.[4 bit 2 stage Flash ADC](#4-bit-2-stage-Flash-ADC)
 
 # Abstract
 - This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
