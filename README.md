@@ -144,7 +144,7 @@ In above picture Vout = v(+) - v(-)
 - This ensures that the full input range is effectively used by the second stage.
 - Residue Amplifier gain = 2^(N/2) 
 - N -> total number of bits
-- he first stage resolves n bits → 2ⁿ levels.
+- The first stage resolves n bits → 2ⁿ levels.
 - After the first stage, the maximum possible residue is about 1 LSB of first stage.
 - 1 LSB of first stage = Vref / 2ⁿ
 
