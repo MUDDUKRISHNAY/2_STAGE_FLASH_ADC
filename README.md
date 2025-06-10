@@ -3,10 +3,14 @@ Analog  to digital converter  to reduce Area and Quantization error
 
 - 1.[Abstract](#Abstract)
 - 2.[Architecture of 4_bit_2_stage_flash_adc](#Architecture-of-4_bit_2_stage_flash_adc)
-- 3.[Different Blocks used in this Architecture(#Different-Blocks-used-in-this-Architecture)
+- 3.[Different Blocks used in this Architecture](#Different-Blocks-used-in-this-Architecture)
 - 4.[OPAMP](#OPAMP)
 - 5.[Comparator](#Comparator)
 - 6.[Thermometer To Binary encoder](#Thermometer-To-Binary-encoder)
+- 7.[Two bit Flash ADC](#Two-bit-Flash-ADC)
+- 8.[Sample and Hold ](#Sample-and-Hold )
+- 9.[Subtractor](#Subtractor)
+- 10.[Residue_Amplifier](#Residue_Amplifier)
 
 # Abstract
 - This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
