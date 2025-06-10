@@ -12,7 +12,7 @@ Analog  to digital converter  to reduce Area and Quantization error
 - 9.[Subtractor](#Subtractor)
 - 10.[Residue_Amplifier](#Residue_Amplifier)
 - 11.[Switch](#Switch )
-- 12.[2_bit DAC ](#2_bit-DAC )
+- 12.[Two_bit DAC ](#Two_bit-DAC )
 
 # Abstract
 - This project presents the design and implementation of a 2-Stage Flash Analog-to-Digital Converter (ADC), an optimized architecture aimed at reducing power consumption, chip area, and comparator count while maintaining high-speed conversion.
@@ -193,22 +193,35 @@ As seen in Schematic, digital inputs are the control terminals to the switches o
 - Output of Switch
 ![Switch_output](https://github.com/user-attachments/assets/14c606e5-1e71-4918-95e1-e1b8853b030f)
 
-# 2_bit DAC 
+# Two_bit DAC 
 - A C2C DAC is a type of capacitive Digital-to-Analog Converter that uses a network of capacitors instead of resistors to perform digital-to-analog conversion.
 - Each bit of the digital input controls a capacitor switch connected to either reference voltage (Vref) or ground.
 - The network of capacitors forms a charge divider, and the combined charge determines the analog output voltage.
 
-- 2_bit DAC Circuit 
+- Two_bit DAC Circuit 
 ![DAC](https://github.com/user-attachments/assets/f1319bc0-115c-4cc7-af32-18979256ce87)
 
-- Testbench for 2_bit DAC
+- Testbench for Two_bit DAC
 ![DAC_testbench](https://github.com/user-attachments/assets/3d7de32b-ee82-4c35-8e6b-d26ff6690a2a)
 
-- Output of 2_bit DAC
+- Output of Two_bit DAC
 ![switch_output](https://github.com/user-attachments/assets/678ab290-9a67-428b-b0b7-0055f0774c23)
 
+# 4 bit 2 stage Flash ADC
+- By Integrating all above mentioned blocks we can get full structure 4 bit 2 stage Flash ADC
 
+- Proposed circuit
+![2_stage_flash_adc_sh](https://github.com/user-attachments/assets/47310c72-49f1-4f2b-bd7a-e20c6d8ef6a9)
+- In the above picture there are 2  buffers , because to reduce the loading effect
 
+- Testbench for 4 bit 2 stage Flash ADC
+![2_stage_flash_adc_test](https://github.com/user-attachments/assets/a306a022-5bdd-44fd-b736-74fc7d760743)
+
+- output of 4 bit 2 stage Flash ADC
+- you can see small part with claer resolution 
+![2_stage_flash_adc_output1](https://github.com/user-attachments/assets/5a443065-0505-445b-a30a-dc73322746ec)
+- full obtained output
+![2_satge_flash_adc_output2](https://github.com/user-attachments/assets/f6f80e71-ec47-4a01-a258-e4869d7fe8b4)
 
 
 
