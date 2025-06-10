@@ -203,7 +203,8 @@ As seen in Schematic, digital inputs are the control terminals to the switches o
 ![DAC_testbench](https://github.com/user-attachments/assets/3d7de32b-ee82-4c35-8e6b-d26ff6690a2a)
 
 - Output of 2_bit DAC
-![DAC_output](https://github.com/user-attachments/assets/8034aafa-02e8-42ca-b2a5-ebb391e7321e)
+![switch_output](https://github.com/user-attachments/assets/678ab290-9a67-428b-b0b7-0055f0774c23)
+
 
 
 
