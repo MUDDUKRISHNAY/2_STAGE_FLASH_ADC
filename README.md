@@ -228,6 +228,7 @@ As seen in Schematic, digital inputs are the control terminals to the switches o
 ![2_satge_flash_adc_output2](https://github.com/user-attachments/assets/f6f80e71-ec47-4a01-a258-e4869d7fe8b4)
 
 # Refrence 
+Short notes by Phillip E.Allen
 https://drive.google.com/drive/folders/1l3RUkgVgxhLF61Y6qqgLO9Xr1yyfzzXa
 
 
